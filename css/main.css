@@ -180,22 +180,6 @@ ul {
     z-index: 1;
 }
 
-/*.main-menu .navbar-collapse .collapse .show{
-    max-width: 135px;
-    right: -31px;
-    position: absolute;
-    top: 99px;
-    
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    background: #ffff;
-    
-    right: 22px;
-    position: absolute;
-    z-index: 1;
-} */
-
 .link-1{
     margin-top: 92px;
 }
@@ -235,7 +219,7 @@ ul {
     justify-content: space-between;
 }
 
-.section_3_4{
+.section_3{
     margin-left: 55px;
     margin-right: 55px;
     margin-top: 83px;
@@ -243,7 +227,7 @@ ul {
     align-items: center;
 }
 
-.link_learn_more_3_4{
+.link_learn_more_3{
     padding: 18px 44px;
     color: #ffffff;
     text-decoration: none;
@@ -253,11 +237,37 @@ ul {
     border: none;
 }
 
-.img_section_3_4{
+.img_section_3{
     width: 61.36%;
 }
 
 .main_contant_3_4_section_text{
+    margin: 30px 0px 50px 00px
+}
+
+.section_4{
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 83px;
+    display: flex;
+    align-items: center;
+}
+
+.link_learn_more_4{
+    padding: 18px 44px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #E58311;
+    border: none;
+}
+
+.img_section_4{
+    width: 61.36%;
+}
+
+.main_contant_4_section_text{
     margin: 30px 0px 50px 00px
 }
 
@@ -318,4 +328,48 @@ footer{
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (min-width: 1400px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (max-width: 855px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shops {
+        height: 245px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 990px){
+    .navbar-expand-lg .navbar-collapse{
+        display: none;
+    }
+}
+
+#mainMenu.main-menu.navbar-collapse.collapse.show{
+    background: #fff;
+    display: flex;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
 }
