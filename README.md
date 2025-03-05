@@ -8,3 +8,6 @@ I think I'll do a separate draft where I'll show you how I would fix this design
 Я думаю, что сделаю отдельный драфт, где покажу, как бы я исправила этот дизайн проект и что в нём можно улучшить.
 
 (P.S. ru)
+
+
+https://www.figma.com/design/eE1SsoUimXmjmc462MBWvS/HoneyLandingPage-(Copy)?node-id=44-1152&p=f&t=0Q1DYW98qYz8psCv-0 - link on my draft
